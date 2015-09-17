@@ -74,5 +74,8 @@
     <ClCompile Include="category.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="categories.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

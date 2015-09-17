@@ -1,33 +1,20 @@
-﻿生成启动时间为 2015/9/16 22:01:03。
-     1>项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise3\5structure_exercise3\5structure_exercise3.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2015/9/17 19:22:44。
+     1>项目“C:\Users\Infertom-PC\documents\visual studio 2010\Projects\5structure_exercise3\5structure_exercise3\5structure_exercise3.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         正在对“Debug\5structure_exercise3.unsuccessfulbuild”执行 Touch 任务。
+         正在创建“Debug\5structure_exercise3.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
-         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise3\Debug\5structure_exercise3.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\5structure_exercise3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise3\Debug\5structure_exercise3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise3\Debug\5structure_exercise3.lib" /MACHINE:X86 Debug\5structure_exercise3.exe.embed.manifest.res
-         Debug\advertisement.obj
-         Debug\buildpage.obj
-         Debug\category.obj
-         Debug\client.obj
-         Debug\date.obj
-         Debug\group.obj
-         Debug\listing.obj
-         Debug\main.obj
-         Debug\processrequest.obj
-     1>buildpage.obj : error LNK2019: 无法解析的外部符号 "public: virtual class std::_Vector_iterator<class std::_Vector_val<class Category *,class std::allocator<class Category *> > > __thiscall Categories::end(void)" (?end@Categories@@UAE?AV?$_Vector_iterator@V?$_Vector_val@PAVCategory@@V?$allocator@PAVCategory@@@std@@@std@@@std@@XZ)，该符号在函数 "void __cdecl displayPostItem(class std::basic_ostringstream<char,struct std::char_traits<char>,class std::allocator<char> > &,struct in_addr,int)" (?displayPostItem@@YAXAAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@Uin_addr@@H@Z) 中被引用
-     1>main.obj : error LNK2001: 无法解析的外部符号 "public: virtual class std::_Vector_iterator<class std::_Vector_val<class Category *,class std::allocator<class Category *> > > __thiscall Categories::end(void)" (?end@Categories@@UAE?AV?$_Vector_iterator@V?$_Vector_val@PAVCategory@@V?$allocator@PAVCategory@@@std@@@std@@@std@@XZ)
-     1>buildpage.obj : error LNK2019: 无法解析的外部符号 "public: virtual class std::_Vector_iterator<class std::_Vector_val<class Category *,class std::allocator<class Category *> > > __thiscall Categories::begin(void)" (?begin@Categories@@UAE?AV?$_Vector_iterator@V?$_Vector_val@PAVCategory@@V?$allocator@PAVCategory@@@std@@@std@@@std@@XZ)，该符号在函数 "void __cdecl displayPostItem(class std::basic_ostringstream<char,struct std::char_traits<char>,class std::allocator<char> > &,struct in_addr,int)" (?displayPostItem@@YAXAAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@Uin_addr@@H@Z) 中被引用
-     1>main.obj : error LNK2001: 无法解析的外部符号 "public: virtual class std::_Vector_iterator<class std::_Vector_val<class Category *,class std::allocator<class Category *> > > __thiscall Categories::begin(void)" (?begin@Categories@@UAE?AV?$_Vector_iterator@V?$_Vector_val@PAVCategory@@V?$allocator@PAVCategory@@@std@@@std@@@std@@XZ)
-     1>main.obj : error LNK2019: 无法解析的外部符号 "public: virtual void __thiscall Categories::add(class Category *)" (?add@Categories@@UAEXPAVCategory@@@Z)，该符号在函数 _main 中被引用
-     1>processrequest.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall Categories::add(class Category *)" (?add@Categories@@UAEXPAVCategory@@@Z)
-     1>main.obj : error LNK2001: 无法解析的外部符号 "public: static int const Categories::NO_PARENT" (?NO_PARENT@Categories@@2HB)
-     1>main.obj : error LNK2001: 无法解析的外部符号 "public: virtual class Category * __thiscall Categories::operator[](int const &)" (??ACategories@@UAEPAVCategory@@ABH@Z)
-     1>C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise3\Debug\5structure_exercise3.exe : fatal error LNK1120: 5 个无法解析的外部命令
-     1>已完成生成项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise3\5structure_exercise3\5structure_exercise3.vcxproj”(build 个目标)的操作 - 失败。
+         所有输出均为最新。
+       Manifest:
+         所有输出均为最新。
+       FinalizeBuildStatus:
+         正在删除文件“Debug\5structure_exercise3.unsuccessfulbuild”。
+         正在对“Debug\5structure_exercise3.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Infertom-PC\documents\visual studio 2010\Projects\5structure_exercise3\5structure_exercise3\5structure_exercise3.vcxproj”(build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:00.26
+已用时间 00:00:00.18
