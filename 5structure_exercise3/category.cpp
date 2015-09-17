@@ -4,7 +4,7 @@ istream &operator>>(istream &stream, Category &c)
 {
     int pid;
     string name;
-    cin>>pid>>name;
+    stream>>pid>>name;
     c.setParent(pid);
     c.setName(name);
 

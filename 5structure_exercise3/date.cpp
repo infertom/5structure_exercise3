@@ -2,7 +2,7 @@
 
 ostream &operator<<(ostream& io, const Date& d)
 {
-    cout<<d.getMonth()<<"/"<<d.getDay()<<"/"<<d.getYear()<<" "<<d.getHour()<<":"<<d.getMinute()<<":"<<d.getSecond()<<endl;
+    io<<d.getMonth()<<"/"<<d.getDay()<<"/"<<d.getYear()<<" "<<d.getHour()<<":"<<d.getMinute()<<":"<<d.getSecond()<<endl;
 	return io;
 }
 
