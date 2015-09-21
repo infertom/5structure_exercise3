@@ -5,6 +5,7 @@ Category* Categories::operator[](const int &number)
 	for ( iterator it = objects.begin(); it != objects.end(); it++){
 		if ( (*it)->getNumber() == number ) return *it;
 	}
+	cerr<<"No category"<<endl;
 	return NULL;
 }
 

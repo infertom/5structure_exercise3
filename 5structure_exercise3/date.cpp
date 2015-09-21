@@ -130,6 +130,5 @@ bool Date::operator<(const Date &rhs)
     y = y * 100 + minute;
     y = y * 100 + second;
 
-	if ( y < x ) return true;
-	else return false;
+	return (y < x);
 }

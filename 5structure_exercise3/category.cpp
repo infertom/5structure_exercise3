@@ -105,6 +105,5 @@ vector<Category*>::iterator Category::subCategoriesEnd()
 
 bool Category::operator==(const Category& rhs)
 {
-    if ( number == rhs.getNumber() ) return true;
-    else return false;
+    return (number == rhs.getNumber());
 }

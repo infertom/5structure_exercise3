@@ -2,7 +2,7 @@
 
 istream &operator>>(istream &stream, Advertisement &a)
 {
-	string str;
+	string str, temp;
 	int q;
 	Date d;
 	stream>>str;
@@ -15,7 +15,8 @@ istream &operator>>(istream &stream, Advertisement &a)
 	a.setStart(d);
 	stream>>d;
 	a.setClose(d);
-	stream>>str;
+	str = "";
+	while ( stream >> temp && temp != "" ) str = str + temp + " ";
 	a.setBody(str);
 
 	return stream;
@@ -120,6 +121,5 @@ int Advertisement::getQuantity() const
 
 bool Advertisement::operator==(const Advertisement &a) const
 {
-	if ( a.getNumber() == this->number ) return true;
-	else return false;
+	return (a.getNumber() == number);
 }

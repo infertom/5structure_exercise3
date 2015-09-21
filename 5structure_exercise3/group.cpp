@@ -5,6 +5,8 @@ Client * Group::operator[](const string &email)
 	for (iterator it = objects.begin(); it != objects.end(); it++){
 		if ( (*it)->getEmail() == email ) return *it;
 	}
+	cerr<<"No client"<<endl;
+	return NULL;
 }
 
 void Group::add(Client* ptr)
